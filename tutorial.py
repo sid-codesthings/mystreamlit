@@ -3,7 +3,7 @@ st.set_page_config(page_title='MyStreamlit',page_icon='shark') #here shark is an
 mymenu = st.sidebar.selectbox('My Menu',('Home','FillForm','Downloads'))
 st.image('https://img.freepik.com/free-photo/3d-illustration-blue-purple-futuristic-sci-fi-techno-lights-cool-background_181624-57587.jpg?w=2000')  #the function that we wanna see first on webpage has to
 #be written first
-st.title('Onlei Technologies')
+st.title('Futuro Technologies')
 st.header('By Siddhartha Sen')
 st.text('This is a tutorial on Streamlit Library')
 if(mymenu=='Home'):
