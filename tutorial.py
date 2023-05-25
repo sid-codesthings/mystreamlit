@@ -17,7 +17,7 @@ elif(mymenu=='FillForm'):
         marks = st.slider('Choose Marks') # Slider for sliding and chosing marks
         k = st.form_submit_button("Submit Form")
         if k:
-            st.write('Name:',name,'DOB:',dob,'MArks:',marks)
+            st.write('Name:',name,'DOB:',dob,'Marks:',marks)
 elif(mymenu=='Downloads'):
     st.header("Downloads")
     st.download_button('Download Now','hello this is the downloaded data','onlei.txt') #text data getting downloaded here
